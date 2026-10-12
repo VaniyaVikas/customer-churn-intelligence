@@ -1,0 +1,25 @@
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.vscode/
+.idea/
+
+# Local data
+data/raw/*.csv
+data/processed/*
+
+# Trained model files
+models/*.joblib
+models/*.pkl
+
+# Generated reports
+reports/metrics.json
+reports/figures/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
